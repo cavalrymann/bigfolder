@@ -105,6 +105,11 @@ across sessions.
 - [FSKit caching and performance](https://developer.apple.com/forums/thread/793013) (Apple Developer Forums)
 - [Drive slow in Finder, quick on Windows](https://forums.sandisk.com/t/drive-contents-very-slow-to-show-in-finder-but-very-quick-on-windows-machine-5tb-portable/315882) (SanDisk forum)
 
+## Acknowledgments
+
+Sorting by the date a photo was taken uses [ExifTool](https://exiftool.org) by
+Phil Harvey, called as a separate program when `--exif` is used.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
